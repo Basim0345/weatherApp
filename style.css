@@ -1,0 +1,76 @@
+
+  #main {
+        background-image: url("2.jpg");
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 30px;
+        /* height: 600px; */
+      }
+#heading{
+    display: flex;
+    color: rgb(0, 0, 0);
+    justify-content: center;
+    align-items: center;
+   }
+
+#button{
+   align-items: center;
+   text-align: center;
+   margin-top: 30px;
+}
+#cityName{
+    height: 50px;
+    background: transparent;
+}
+#result{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid white; */
+}
+#feelsLike{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid white; */
+}
+#humidity{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid white; */
+}
+#cards{
+    justify-content: center;
+    gap: 30px;
+}
+#clock{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid black; */
+}
+#cname{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid black; */
+}
+#footer{
+    /* border: 2px solid black; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding-top: 10px;
+
+}
