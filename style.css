@@ -1,11 +1,47 @@
+body.clear {
+    background: url('./img/clearday.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+}
 
-  #main {
-        background-image: url("2.jpg");
-        background-size:cover;
+body.clouds {
+    background: url('./img/2.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+}
+
+body.rain {
+    background: url('./img/rain2.gif') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body.snow {
+    background: url('./img/snow.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+}
+
+body.thunderstorm {
+    background: url('https://i.ibb.co/hL3GHqn/thunder.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body.Default {
+    background: linear-gradient(to right, #04b8ff, #8bd3ff);
+    color: #000;
+}
+
+  
+ #main{
+        /* background-image: url("./img/clear-sky.jpg"); */
+        /* background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
         margin-top: 30px;
-        /* height: 600px; */
+        height:98vh; */
+        background: transparent;
       }
 #heading{
     display: flex;
@@ -18,6 +54,7 @@
    align-items: center;
    text-align: center;
    margin-top: 30px;
+   /* width: 250px; */
 }
 #cityName{
     height: 50px;
@@ -27,7 +64,7 @@
     margin-top: 30px;
     width: 100px;
     height: 50px;
-    font-size: 40px;
+    font-size: 30px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     /* border: 2px solid white; */
@@ -36,7 +73,7 @@
     margin-top: 30px;
     width: 100px;
     height: 50px;
-    font-size: 30px;
+    font-size: 23px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     /* border: 2px solid white; */
@@ -45,23 +82,24 @@
     margin-top: 30px;
     width: 100px;
     height: 50px;
-    font-size: 30px;
+    font-size:25px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     /* border: 2px solid white; */
+    padding-left: 0px;
 }
 #cards{
     justify-content: center;
     gap: 30px;
 }
 #clock{
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     /* border: 2px solid black; */
 }
 #cname{
-    font-size: 30px;
+    font-size: 15px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     /* border: 2px solid black; */
@@ -73,4 +111,14 @@
     font-weight: bold;
     padding-top: 10px;
 
+}
+#cloud{
+    margin-top: 30px;
+    width: 100px;
+    height: 50px;
+    font-size:25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    /* border: 2px solid white; */
+    padding-left: 0px;
 }
